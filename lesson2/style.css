@@ -1,0 +1,33 @@
+.general-gap-right{
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.gray-card-background{
+    background-color: #e4e4e4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-text{
+    color: black;
+    font-size: 60px;
+    font-family: Calibri, serif;
+    padding: 10px 0;
+}
+
+.card-text-black{
+    color: black;
+    font-size: 80px;
+}
+.card-text-red{
+    color: red;
+    font-size: 80px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
