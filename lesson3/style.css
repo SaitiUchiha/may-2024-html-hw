@@ -1,0 +1,21 @@
+.background{
+    background-color: #FFE2C4;
+    height: 300px;
+}
+.mutation{
+    width: 100px;
+    height: 100px;
+    background-color: #FE0000;
+    margin: 200px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*transform: rotate(45deg);*/
+}
+.mutation:hover{
+    background-color: #808080;
+    border-radius: 50%;
+    transition: 2s;
+    /*transform: skew(18deg);*/
+}
