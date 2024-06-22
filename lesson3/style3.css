@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*hw3.2 styles*/
+
 .background{
     background-color: #FFE2C4;
     height: 400px;
@@ -19,4 +26,33 @@
     border-radius: 50%;
     transition: 1.2s;
 
+}
+
+/*hw3.3 styles*/
+
+.year{
+    background: #86B6F6;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 100px 0;
+}
+.month{
+    width: 250px;
+    height: 300px;
+    background-color: #EEF5FF;
+    border-radius: 15px;
+    box-shadow: 15px 10px 19px -5px rgba(23,107,135,0.73);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: left;
+    transition: 1.2s;
+}
+.month:hover{
+    transition: 1.2s;
+    transform: scale(1.5);
 }
