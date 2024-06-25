@@ -1,0 +1,114 @@
+/*hw4.1*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    height: 30vh;
+    width: 30vh;
+    background-color: #FFE3C4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.background {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.font-Indie{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-Fjalla{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-Dancing-reg{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-Dancing-bold{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.font-Sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-Rubik{
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*hw4.2*/
+
+.section-widgets{
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #216ABB;
+}
+.section-bigw{
+    height: 70vh;
+    width: 60vh;
+    background-color: #216ABB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bcg-gen{
+    margin: 10px;
+}
+.flex-bigw{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.section-contacts{
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #216ABB;
+}
+.flex-all{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+/*hw4.3*/
+.section-scroll{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#red{
+    background-color: darkred;
+
+}
+#blue{
+    background-color: cornflowerblue;
+}
+#green{
+    background-color: darkgreen;
+}
+.img{
+    height: 10%;
+}
