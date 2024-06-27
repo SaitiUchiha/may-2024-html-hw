@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /*hw5.2*/
 .text-arrangement{
     padding: 60px;
@@ -18,3 +24,40 @@ section{
     background-color: black;
     color: snow;
 }
+
+/*hw5.3*/
+.box{
+    height: 100px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #EEF5FF;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.3);
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.parent{
+    background-color: #adcdf8;
+    width: 45%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.color{
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+}
+
