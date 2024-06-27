@@ -47,12 +47,12 @@ header div{
 }
 
 /*-------------------section index----------------------*/
-.gen{
+.index-gen{
     height: 90vh;
     background-image: url("img/HPSubmarine.png");
     background-size: cover;
     background-position: bottom;
-    background-blend-mode: soft-light;
+    background-attachment: fixed;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -96,7 +96,7 @@ section h1{
     border-radius: 10px;
 }
 .card {
-    border: 2px solid lightgrey;
+    background-color: snow;
     border-radius: 20px;
     width: 600px;
     padding: 30px 10px;
@@ -104,6 +104,7 @@ section h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.3);
 }
 .flex {
     margin-top: 10vh;
@@ -112,6 +113,7 @@ section h1{
     align-items: center;
     flex-wrap: wrap;
     gap: 5vh;
+
 }
 .name{
     font-family: "Holtwood One SC", serif;
@@ -139,6 +141,11 @@ section h1{
     transform: scale(1.1);
     transition: 0.5s;
 }
-
+.contact-gen {
+    background-image: url("img/contact.png");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
 
 
