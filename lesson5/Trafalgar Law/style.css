@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+p{
     font-family: "Orbitron", sans-serif;
 }
 .active{
@@ -46,6 +49,9 @@ header div{
     text-align: center;
 }
 
+header p{
+    font-family: "Orbitron", sans-serif;
+}
 /*-------------------section index----------------------*/
 .index-gen{
     height: 90vh;
@@ -60,6 +66,7 @@ header div{
 }
 
 .quote{
+    font-family: "Orbitron", sans-serif;
     margin-top: 18vh;
     padding: 20px;
     display: flex;
@@ -98,7 +105,18 @@ section h1{
 .card {
     background-color: snow;
     border-radius: 20px;
-    width: 600px;
+    width: 400px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.3);
+}
+.card-main {
+    background-color: snow;
+    border-radius: 20px;
+    width: 40vw;
     padding: 30px 10px;
     display: flex;
     justify-content: center;
@@ -107,11 +125,19 @@ section h1{
     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.3);
 }
 .flex {
-    margin-top: 10vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    gap: 5vh;
+
+}
+.flex-side {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 5vh;
 
 }
@@ -147,5 +173,14 @@ section h1{
     background-position: top;
     background-attachment: fixed;
 }
-
+.note-list{
+    width: 30vw;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+}
+h5{
+    font-family: "Orbitron", sans-serif;
+    font-size: 26px;
+}
 
