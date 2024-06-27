@@ -1,0 +1,20 @@
+/*hw5.2*/
+.text-arrangement{
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section{
+    height: 35.9vh;
+}
+#pink{
+    background-color: #fbb6c2;
+    color: black;
+}
+#black{
+    background-color: black;
+    color: snow;
+}
