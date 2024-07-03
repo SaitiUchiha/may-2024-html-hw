@@ -58,13 +58,13 @@
     flex-wrap: wrap;
 }
 .flex16-2-1{
-    width: 73.3vw;
+    width: 73vw;
     height: 56.3vh;
     display: flex;
     flex-direction: column;
 }
 .flex16-2-2{
-    width: 26.8vw;
+    width: 27vw;
     height: 56.3vh;
     display: flex;
     flex-direction: column;
