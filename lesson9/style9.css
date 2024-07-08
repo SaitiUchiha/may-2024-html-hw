@@ -109,6 +109,11 @@ img{
     color: #375185;
 
 }
+.first-rct #facebook{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 .first-rct a svg{
     height: 16px;
     width: 16px;
