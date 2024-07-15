@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+header{
+    height: 5vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+nav>a>img{
+    height: 17px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    height: 100vh;
+    background: rgba(245, 245, 247, 0.60);
+}
+.slide-right{
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    background: rgba(245, 245, 247, 0.60);
+    backdrop-filter: blur(10px);
+    animation: slide-right 0.4s ease-in 1;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+li{
+    margin-right: 30px;
+    text-align: center;
+}
+main>section{
+    height: 864px;
+    background: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main>section>img{
+    margin-top: 78px;
+    width: 761px;
+    height: 432px;
+}
+.scale-down{
+    animation: scale-down 3s ease-in 1;
+}
+.slide-bottom{
+    animation: slide-bottom 3s ease-in 1;
+}
+main>section>div>h1{
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+main>section>div>p{
+    margin-bottom: 30px;
+    width: 975px;
+    color: #86868B;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+}
+section>ul>li>a:hover {
+    color: #0066CC;
+}
+
+/*animation*/
+@keyframes slide-right {
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes scale-down {
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+        transform: scale(1.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes slide-bottom {
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
