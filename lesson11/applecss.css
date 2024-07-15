@@ -88,7 +88,7 @@ main>section>div>p{
     font-style: normal;
     font-weight: 600;
     line-height: 28px; /* 129.855% */
-    letter-spacing: 0.216px;
+    letter-spacing: 1px;
 }
 section>ul>li>a:hover {
     color: #0066CC;
