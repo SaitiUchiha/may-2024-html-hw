@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+.flex-table{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+table{
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    width: 50%;
+}
+th{
+    background-color: #2BA879;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: "Tinos", serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    border: none;
+}
+thead {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+tr:nth-child(even) {
+    background-color: #E3EFEB;
+}
+tr:hover{
+    background-color: rgba(223, 255, 255, 0.51);
+}
+td{
+    padding: 10px;
+    font-size: 14px;
+}
+

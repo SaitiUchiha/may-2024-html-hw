@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Prata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+    font-family: "Lora", serif;
+}
+.flex-table{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+table{
+    border: 3px solid #008B8B;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 40%;
+    padding: 20px;
+}
+thead {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Prata", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+
+}
+td{
+    width: 30%;
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: #375185;
+
+}
+td:nth-child(even) {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(217, 243, 248, 0.7);
+}
+.background-blue{
+    background-color: #0000FF;
+}
+.background-black{
+    background-color: #000000;
+}
+.background-red{
+    background-color: #FF0000;
+}
+.background-white{
+    background-color: #FFFFFF;
+}
+.background-green{
+    background-color: #008000;
+}
+.background-purple{
+    background-color: #800080;
+}
+.background-yellow{
+    background-color: #FFFF00;
+}
+.background-orange{
+    background-color: #FFA500;
+}
+.background-violet{
+    background-color: #EE82EE;
+}
+.background-silver{
+    background-color: #C0C0C0;
+}
+.background-grey{
+    background-color: #808080;
+}
+.background-pink{
+    background-color: #FFC0CB;
+}
+.background-aqua{
+    background-color: #00FFFF;
+}
+.background-khaki{
+    background-color: #F0E68C;
+}
+.background-fuscia{
+    background-color: #FF00FF;
+}
