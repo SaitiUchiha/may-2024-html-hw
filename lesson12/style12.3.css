@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border-spacing: 0;
+    border-spacing: 5px;
     font-family: "Lora", serif;
+    font-weight: 500;
 }
 .flex-table{
     height: 100vh;
@@ -19,27 +21,32 @@ table{
     background-color: #FFFFFF;
     width: 40%;
     padding: 20px;
+    background-color: rgba(100, 237, 232, 0.1);
 }
-thead {
-    text-align: center;
-    font-size: 18px;
-    font-family: "Prata", serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: none;
 
+thead>tr>th{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Pridi", serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #4000ff;
 }
 td{
     width: 30%;
-    padding: 10px 20px;
+    padding: 10px 5px;
     text-align: left;
-    border-bottom: #375185;
-
 }
 td:nth-child(even) {
     font-size: 14px;
     font-weight: 600;
-    background-color: rgba(217, 243, 248, 0.7);
+}
+td:nth-child(1) {
+    background-color: rgba(226, 217, 248, 0.7);
+}
+tr:hover{
+    background-color: rgba(255, 215, 0, 0.5);
 }
 .background-blue{
     background-color: #0000FF;
