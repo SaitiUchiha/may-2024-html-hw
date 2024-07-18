@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+    font-family: "Taviraj", serif;
+}
+body{
+    background: #F7F6F4;
+}
+body>div{
+    width: 1110px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 186px;
+    padding: 32px 0;
+}
+header>nav>img{
+    width: 178px;
+    height: 22px;
+    object-fit: cover;
+}
+header>nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+header>nav>ul>li{
+    position: relative;
+}
+.drop{
+    position: absolute;
+    list-style: none;
+    display: none;
+    padding: 15px 41px 23px 20px;
+    background: rgba(255, 255, 255, 0.70);
+}
+.drop a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.drop a:hover{
+    color: #000000;
+    font-weight: 600;
+}
+header>nav>ul>li:hover .drop{
+    display: block;
+}
+.hero{
+    height: 505px;
+    background-color: #F1DDC9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 56px;
+    margin-top: 90px;
+}
+.hero img{
+    width: 325px;
+    height: 467px;
+    object-fit: cover;
+}
+.hero h1{
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+}
+.hero p{
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 529px;
+    letter-spacing: 0.48px;
+    margin-bottom: 72px;
+}
+.hero button{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.hero button:hover{
+    background: rgba(216, 71, 39, 0.77);
+}
+.monthly-deals{
+    margin-top: 103px;
+    margin-bottom: 132px;
+}
+.monthly-deals h3{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-bottom: 89px;
+}
+.monthly-deals ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.monthly-deals li{
+    width: 255px;
+    height: 278px;
+    flex-shrink: 0;
+    background: #FFF;
+    padding: 33px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+}
+.monthly-deals img{
+    width: 221px;
+    height: 221px;
+    object-fit: cover;
+    position: absolute;
+    top: -32px;
+
+}
+.monthly-deals p{
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+.recent-news{
+    margin-bottom: 151px;
+}
+.recent-news h3{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-bottom: 43px;
+}
+.recent-news p{
+    color: #777;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.recent-news h2{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+    width: 350px;
+}
+.recent-news img{
+    width: 610px;
+    height: 484px;
+}
+.where-to-travel{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 55px;
+}
