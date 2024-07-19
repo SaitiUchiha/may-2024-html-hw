@@ -11,12 +11,15 @@ body {
 }
 
 header {
+    width: 100%;
     height: 113px;
     background: #24204A;
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
 }
 
-header > div {
+header>div {
     width: 1110px;
     height: 113px;
     margin: 0 auto;
@@ -24,9 +27,10 @@ header > div {
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
+
 }
 
-header > p {
+header>p {
     color: #E5E5E5;
     font-size: 20px;
     font-style: normal;
@@ -34,7 +38,7 @@ header > p {
     line-height: normal;
 }
 
-nav > ul {
+nav>ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -49,3 +53,187 @@ nav a {
     font-weight: 500;
     line-height: normal;
 }
+main>div{
+    width: 1171px;
+    margin: 0 auto;
+}
+.hero{
+    margin-top: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero>div>p:first-child{
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.hero>div{
+   display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    gap: 32px;
+}
+.hero>div>h2{
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero>div>p{
+    width: 570px;
+    height: 85px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+}
+.hero>div>button{
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero>img{
+    width: 375px;
+    height: 411px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    margin: 67px 0 101px 0;
+}
+.colors{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colors>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colors>li>div{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+}
+.colors>li:first-child>div{
+    background: #FF6853;
+}
+.colors>li:nth-child(2)>div{
+    background: #FF537C;
+}
+.colors>li:nth-child(3)>div{
+    background: #80D2C4;
+}
+.colors>li:nth-child(4)>div{
+    background: #3F50E7;
+}
+.colors>li:last-child>div{
+    background: #95CB7C;
+}
+.colors>li>ul{
+    list-style: none;
+}
+.colors>li>ul>li:first-child{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.colors>li>ul>li:last-child{
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.second>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second>div>h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    width: 1074px;
+    margin-top: 85px;
+}
+.second>div>p{
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    margin-top: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 58px;
+    margin-bottom: 114px;
+}
+.cards li{
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 16px 0 16px;
+    gap: 26px;
+}
+.cards li p{
+    text-align: center;
+}
+iframe{
+    height: 664px;
+}
+footer{
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
