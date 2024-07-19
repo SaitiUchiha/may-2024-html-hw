@@ -222,6 +222,10 @@ main>div{
 }
 .cards li p{
     text-align: center;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
 }
 iframe{
     height: 664px;
