@@ -38,6 +38,7 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     gap: 32px;
+    margin: 32px 0;
 }
 li{
     list-style: none;
