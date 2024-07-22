@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+    nav {
+        flex-direction: column;
+        gap: 0;
+    }
+    nav a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div{
+        flex-direction: column;
+    }
+    div section{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

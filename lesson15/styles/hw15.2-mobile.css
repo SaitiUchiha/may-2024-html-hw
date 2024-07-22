@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px){
+    body{
+        font-size: 12px;
+    }
+    body>div{
+        height: 20vh;
+    }
+    body>section{
+        flex-direction: column;
+    }
+    body>section>div:first-of-type {
+        height: 60vh;
+        width: 100vw;
+    }
+    body>section>div:last-of-type{
+        height: 20vh;
+        width: 100vw;
+    }
+}

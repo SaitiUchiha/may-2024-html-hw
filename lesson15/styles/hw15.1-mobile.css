@@ -1,0 +1,18 @@
+@media screen and (max-width: 800px){
+    body>div:nth-child(2){
+        flex-direction: column;
+    }
+    div>div:first-of-type{
+        width: 100%;
+    }
+    div>div:last-of-type{
+        width: 100%;
+        height: 20vh;
+    }
+    body>div:first-of-type{
+        height: 20vh;
+    }
+    body{
+        font-size: 12px;
+    }
+}
