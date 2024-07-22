@@ -38,7 +38,6 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     gap: 32px;
-    margin: 32px 0;
 }
 li{
     list-style: none;
@@ -65,4 +64,7 @@ p{
     line-height: 120%; /* 15.6px */
     letter-spacing: 1.5px;
     text-transform: uppercase;
+}
+body>ul:nth-child(1){
+    margin-bottom: 32px
 }
