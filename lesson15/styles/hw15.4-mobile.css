@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px){
+    body{
+        padding: 32px 16px;
+    }
+    .img {
+        width: 343px;
+        height: 257px;
+    }
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) and (max-width: 1186px) {
+    body > div {
+        margin: 48px auto;
+        width: 610px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    h1 {
+        font-size: 48px;
+        width: 610px;
+    }
+
+    ul p {
+        font-size: 20px;
+    }
+    ul {
+        margin: 16px 0 32px 0;
+    }
+}

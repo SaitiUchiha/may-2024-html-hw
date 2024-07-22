@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    padding: 64px 130px;
+}
+.img {
+    width: 372px;
+    height: 279px;
+    border-radius: 10px;
+}
+.beach{
+    background: url("https://s3-alpha-sig.figma.com/img/e9b2/9fdb/aa1ec91e607aeb222e83f6fa24d7eb2f?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NbGzjoaV2fm154rpZ-1pxui0f2DIOEn-xrINmVtpKOO2JRChAgtFkJ5dqvN4QEXl7BlJD5mmnc1jZ27t8fRmHCcTF-jGIRrxB6MzCxRkT~WvF9dTUFb2IzZV84787~X~rrtkHEbNdrKUDoqO-v9fe4KBNI8OdhG4Er354A3QhRyZ0Z9gkgBajkCiUaptajpIh6RwlR15utbxp6Lq8Mo7swY7suaptwoQy4y76wZsAusCFCkbR9qcRIPMIIrvawRQK1gibGlxjGo984ShOaUaE4Hs61F4isKWVOHM1kDhGItdOI42LqzLl62oxVBOtwzu04HoH5NkL8~na7Ya0rN3pg__") lightgray 50% / cover no-repeat;
+}
+.purple-palm-tree{
+    background: url("https://s3-alpha-sig.figma.com/img/f431/3422/b0dd03a4d724860ff4cfc95ea73312e8?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hC~lnNRF2bMaiYMEtqNtJq3l-5EXdkbJz5cadCsnRNLlSa1j9PT-flwpoIT28jhtX0pkjbOJfUYd6offfvzoWDG7yuspr3E3otbk0qf32zCw2QVOXDZZo0PatJ5mh72ocduECwbFFc5K2nPgZIjp6A-iC0o5kSK9vT02gtBgZcl6pyI9Zdu4VtlstWg0sbHv42MhB4-QW3jIqn4Jp4u0ol7OfNv16bFrayFV8BYxXoKBl6dX9FQpaIjzFOOonKQyytZSaeOOZ-DGfw6Qq~ylas2tEVw4ZpgyoQLCv1Wm-sjzwTGpwMpXB55~Otv~cwFe6htDLiKDfXtlGgRGt59hhQ__") lightgray 50% / cover no-repeat;
+}
+.reverse-palm-trees{
+    background: url("https://s3-alpha-sig.figma.com/img/09cb/be9e/89a0d81a4f77315a6d3fff58bb453fcb?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CFY4hpH6JqNUdVEpoIgCNEf1otViYh5bqSPSpLrbeXX9F8rM1~DZ5ZdNFCJftrW~QmgCRIoRBWMZ~UXD3P13mBaEBjhNJTTDT1yFE82VC~e0poJgRm65rwpbG-V05P4daXKaC0Snuc-1drLzSXchY2wZ32mBsi67BKfBO7RhV5bYOIrOPe-l8E2VYWgrhOldUaYDFjuh6xvwsuKRlSQiFJoJItMqP3ysb5bM43JbscNDOqqmRI3Lpu3aPIJgL~cczSMIMtEhX~RiaAalR49~t5PwGCzTOZ6dYcjuxXN5bytuDXHXwDmVBc8xPNPYBhnRH2y3ABgZWPOGPvJokRH6jA__") lightgray 50% / cover no-repeat;
+}
+.church{
+    background: url("https://s3-alpha-sig.figma.com/img/7b62/0f2d/34b4670af173e3ff0a2416c762e8b22b?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HTbQJ9NH-gmUT-4f~go1GdI8N9BIwahApYr3A5n5cxqxqTq67iH07JRm-JtkXmkwp0oAoZXaifLVQ9kX~zvozpvlOi5I2RkkGCAD01318m4Rkj6P~jvhJzXpOpmhK4mYd2Tm4uoO~BX5GbrYwXllnRxXQQ7go-jz6YjPjdVq1aAuBoBi3616myNQlT5lX3ovWbrootWL2V8i5qa-O6YAoThXjk6EoOQ6wnTnqXgi0hAs-DNd7vrIsCToRWKFqk-2i8uPpdj008wWS6De3fW~8CQytZjI5G~TeNoFZa1Cloqnz-b6JB2GXaiKDuzsT0Ktrf7qkjPtemQQonR0TFNWCg__") lightgray 50% / cover no-repeat;
+}
+.sea{
+    background: url("https://s3-alpha-sig.figma.com/img/1d34/e1ab/994ee89b43444dacd3017a5b2a1cbf64?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D2xGIEm90DPqeJrgSUfk9Ovrk72eIBGKbHgxblLwpGogykrgVilEBXyX4VgtNDessvZtAsRPkGCOmlyffJbwtE0dFs2oSV1sWZ9EKmww-gZzJQs08q9U6ad3bHdhOUK7uL79qLVnAhopWvCBXHHzMMEGbLMjVdVMnCrW-tDmFsdRBVuftAm4CxHk9n-wGN7NW3ICFrkVrVYf~zbaTKtSO3BxCExl5sXWo5qSbrRdzRs18ZWptrvkadmFEln8yU-NVnUuDEMHybtqaNRzY1vASVnwmBnjxDBNDXbdGj-i2Z3Bsbt7pBw6nCcix9qIRuru245xc2mwU~qDdpZtVw1kuw__") lightgray 50% / cover no-repeat;
+}
+.hills{
+    background: url("https://s3-alpha-sig.figma.com/img/aeba/e2be/bfe81abba376c6ae66acb45aa2f94b18?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U606bqu57iXK8mvTUTBw-czZMO9ql4tmGJw~jFMRRcIV7cHR63OuV37X0ySejL3wjQnMJREEhQrzHNG9HWLZScgjmtegIBsScj55r1-N34MCKN-P4pTE~oGk-5rQo5zbv-o1PD2bVE0-QDzBiTjUs18VfzhLnH~zPxGJFDk9Rkgzp2gj-F-96ixDkM4w0aSgxzwktvCTcJbfup0dQLF-pgzPanVix3Sr1yrCNonG1T0uoZx~lhoKfQ9NqBVvjS8m45hhnjBiP~mzHwVZJdf-SOwoOTtWsqX9VW1DvfzXZJ92Wkm8qQN8GuJBlfa~tT0voDy1W1yLVFUhEdKOIv-PmQ__") lightgray 50% / cover no-repeat;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 20px 0 15px 0;
+}
+p{
+    color: #3C3C43;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 15.6px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
