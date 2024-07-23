@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+    div {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-areas:
+    'header header header'
+    'main main main'
+    'rectC rectD rectE'
+    'aside aside aside';
+    }
+}
