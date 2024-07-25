@@ -1,0 +1,29 @@
+@media screen and (min-width: 621px) and (max-width: 948px) {
+    .card-block {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        'flower1 flower2'
+        'flower3 flower4'
+        'flower5 flower6';
+        grid-gap: 5vh;
+    }
+}
+
+
+
+
+@media screen and (max-width: 621px) {
+    .card-block {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        'flower1'
+        'flower2'
+        'flower3'
+        'flower4'
+        'flower5'
+        'flower6';
+        grid-gap: 5vh;
+    }
+}

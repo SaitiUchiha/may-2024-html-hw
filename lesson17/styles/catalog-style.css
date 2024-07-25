@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.fs-4 {
+    font-family: "Kablammo", system-ui;
+    color: #1a6c1c;
+    font-size: calc(1.5rem + .3vw)!important;
+    margin-left: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #3F50E7;
+}
+.nav-link {
+    color: #1a6c1c;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my-carousel {
+    height: 60vh;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+}
+.card-block{
+    margin: 7vh 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    'flower1 flower2 flower3'
+    'flower4 flower5 flower6';
+    grid-gap: 5vh;
+}
+.flower1 {
+    grid-area: flower1;
+}
+.flower2 {
+    grid-area: flower2;
+}
+.flower3 {
+    grid-area: flower3;
+}
+.flower4 {
+    grid-area: flower4;
+}
+.flower5 {
+    grid-area: flower5;
+}
+.flower6 {
+    grid-area: flower6;
+}
+.btn-primary{
+    background-color: #3F50E7;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
