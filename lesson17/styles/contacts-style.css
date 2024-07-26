@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.fs-4 {
+    font-family: "Kablammo", system-ui;
+    color: #1a6c1c;
+    font-size: calc(1.5rem + .3vw) !important;
+    margin-left: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #3F50E7;
+}
+
+.nav-link {
+    color: #1a6c1c;
+}
+
+.btn-primary {
+    background-color: #3F50E7;
+}
+
+.avatar {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vh;
+
+}
+
+.name {
+    font-size: 1.8em;
+    color: #134a14;
+    font-weight: 600;
+}
+
+.position {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.den-den {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.bttn {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #3F50E7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.bttn:hover {
+    background-color: #7582f1;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contact-gen {
+    background-image: url("img/contact.png");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.note-list {
+    width: 30vw;
+    font-size: 1.5em;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+}
+
+h5 {
+    font-size: 1.6em;
+}

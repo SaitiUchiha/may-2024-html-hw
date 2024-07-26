@@ -24,28 +24,16 @@
     color: #1a6c1c;
 }
 
-.banner {
-    background-image: url("https://images.unsplash.com/photo-1542374848-4c74196a2207?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-
-.bg-body-tertiary {
-    --bs-bg-opacity: 0;
-}
-
-h2 {
-    margin-top: 5vh;
-}
-
-.card {
-    height: 32em;
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .btn-primary {
     background-color: #3F50E7;
+}
+
+.bd-placeholder-img {
+    object-fit: cover;
+}
+
+.bg-body-secondary {
+    background-color: transparent;
+    background-image: url("https://images.unsplash.com/photo-1495386786209-f284d613b8d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: left;
 }
