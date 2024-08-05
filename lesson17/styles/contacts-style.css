@@ -87,7 +87,6 @@
 }
 
 .contact-gen {
-    background-image: url("img/contact.png");
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -102,4 +101,8 @@
 
 h5 {
     font-size: 1.6em;
+}
+iframe {
+    margin: 50px 0;
+    height: 664px;
 }
